@@ -1,0 +1,136 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+/* HEADER */
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: rgb(126, 11, 11);
+    box-shadow: 1px 1px 1px black;
+}
+
+.header_content .logo{
+    margin: 0 0 0 100px;
+}
+
+.logo img{
+ width: 50px;
+ border: 1px solid black;
+ border-radius: 25px;
+}
+
+.header_content .header_content_menu{
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 100px 0 0;
+    font-size: 24px; 
+}
+.header_content .header_content_menu div{
+    padding: 0 15px;
+}
+.header_content .header_content_menu a{
+    color: white;
+    text-decoration: none;
+}
+.header_content .header_content_menu a:hover{
+    color: rgb(213, 211, 211);
+    text-shadow: 1px 1px 1px black;
+}
+
+/* HEADER END */
+
+/*MAIN*/
+
+main{
+    padding: 0 50px;
+    background-color: #0a7171;
+}
+
+.otstyp{
+    content: "";
+    padding-top: 30px;
+}
+
+/*CAROUSEL*/
+
+.carousel-inner{
+    width: 100%;
+}
+.carousel-inner img{
+    max-width: 700px;
+    height: 400px;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 50px !important;
+    height: 50px;
+    border-radius: 25px;
+    margin: auto 0;
+}
+
+/*CAROUSEL END*/
+
+/*Text about Meme*/
+.box_text{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 25px;
+}
+.left_stick{
+    content: "";
+    background-color: white;
+    padding: 50px 5px;
+    margin: 0 50px 0 0;
+}
+.mem_title{
+    font-size: 24px;
+}
+.mem_subtitle{
+    font-size: 20px;
+}
+/*Text about Meme END*/
+
+/*Topics*/
+
+.topics{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.topic{
+    display: flex;
+    width: 400px;
+    max-height: 200px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 25px;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 5px 10px 5px;
+    margin-right: 15px;
+}
+.topic_logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+.topic_title{
+    font-size: 18px;
+    color: white;
+}
+.topic_subtitle{
+    font-size: 14px;
+    color: white;
+}
+
+/*Topics END*/
+
+/*MAIN END*/
